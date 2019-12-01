@@ -320,5 +320,5 @@ for (const elementList of siteFilmListExtra) {
   new Array(COUNT_CARS_EXTRA).fill(``).forEach(() => render(elementList.querySelector(`.films-list__container`), createFilmCardTemplate(), `beforeend`));
 }
 
-const siteBodyElement = document.querySelector('body');
+const siteBodyElement = document.querySelector(`body`);
 render(siteBodyElement, createFilmDetailsTemplate(), `beforeend`);
