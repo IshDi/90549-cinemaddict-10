@@ -1,4 +1,3 @@
-'use strict';
 import {createUserProfile} from './components/profile.js';
 import {createSiteMenuTemplate} from './components/site-menu.js';
 import {createSortFilterTemplate} from './components/filter.js';
